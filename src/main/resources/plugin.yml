@@ -1,0 +1,14 @@
+name: VKProtect
+version: '${project.version}'
+main: ru.evdokimov.vkprotect.Main
+api-version: 1.16
+depend: [VK-API]
+authors: [ Evdokimov27 ]
+
+commands:
+  VKConnect:
+    description: hello
+    usage: sarpreload
+    permission: op
+    aliases:
+      - "vk.connect"
